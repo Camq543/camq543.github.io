@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #a2b9bc;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: black;
+    margin-right:50px;
+    margin-left:50px;
+    margin-top:50px;
+}
+h2{
+    color: black;
+    margin:10px;
+}
+p {
+    color: black;
+    margin-right:100px;
+    margin-left:100px;
+}
+.parent {
+    display: inline-flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    font-family: Arial;
+    position: relative;
+    display: inline-block;
+
+    margin-right:25px;
+    margin-left:25px;
+    margin-top:25px;
+    margin-bottom:25px;
+
+    height: 270px;
+    width: 360px;
+}
+
+.text-block {
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.imageLink {
+    height: 270px;
+    width: 360px;
+    margin-bottom: 10px;
+}
+.projectName {
+    color:black;
+    text-align:center;
+    width:auto;
+}
